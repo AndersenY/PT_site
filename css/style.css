@@ -1,5 +1,5 @@
 body {
-    background-color: #182f39;
+    background-color: #162228;
     background-image: url(/images/1614647021_74-p-sovremennii-fon-dlya-fotoshopa-88.jpg);
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -12,17 +12,14 @@ body {
 
 }
 
-.container {
-    margin-top: 50px;
-}
+.container {}
 
 .row {}
 
 .col-8 {
-    margin-left: 50px;
-    margin-top: 50px;
+    /* margin-left: 50px; */
     text-align: justify;
-    width: 1200px;
+    width: 700px;
     height: 400px;
 }
 
@@ -36,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-left: 1200px;
+    margin-left: 600px;
 }
 
 .img_size {}
@@ -49,21 +46,38 @@ body {
 .my_photo {
     background: url(../images/photo_2024-05-19_21-38-00.jpg) no-repeat center center;
     background-size: 100%;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 50px;
     align-items: end;
-    margin-left: 150px;
-
-
+    margin-left: 70px;
 
 }
 
 .nav_logo {
-    background: url(../images/logo3.png) no-repeat center center;
+    background: url(../images/logo4.png) no-repeat center center;
     background-size: 100%;
     width: 150px;
     height: 150px;
-    margin-left: 30px;
     margin-top: 30px;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: aliceblue;
+    color: rgb(80, 133, 188);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 50%;
 }
