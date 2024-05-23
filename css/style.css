@@ -2,6 +2,7 @@ body {
     background-color: #162228;
     font-family: 'Courier New', Courier, monospace;
     color: white;
+
 }
 
 .nav_bar {
@@ -11,9 +12,18 @@ body {
 
 }
 
-.container {}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
 
-.row {}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .col-8 {
     /* margin-left: 50px; */
@@ -79,4 +89,48 @@ body {
 #demo img {
     margin-top: 20px;
     width: 50%;
+}
+
+.index {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reg {
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form_reg {
+    width: 800px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-12 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_reg {
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: #3185af;
+    display: block;
+    margin: 0 auto;
+}
+
+.butt {
+    margin-top: 0px;
+    margin-top: 30px;
 }
